@@ -523,3 +523,34 @@ a {
     left: 0;
     bottom: 145px;
 }
+/* cta */
+.cta {
+    padding: 76px 0 88px 0;
+    background: #def6f5;
+}
+.cta .body {
+    display: flex;
+    align-items: center;
+    gap: 410px;
+}
+.cta .body .content h2 {
+    color: #070707;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+.cta .body .content p {
+    color: #767e7e;
+    font-size: 1.8rem;
+    line-height: normal;
+}
+.cta .btn {
+    padding: 21px 41px;
+    border-radius: 14px;
+    background: #2ac9bf;
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    font-style: normal;
+    line-height: normal;
+}
