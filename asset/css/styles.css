@@ -612,4 +612,9 @@ a {
 }
 .footer .desc {
     text-align: center;
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
