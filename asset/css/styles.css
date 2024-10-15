@@ -554,3 +554,62 @@ a {
     font-style: normal;
     line-height: normal;
 }
+/* footer */
+.footer {
+    padding: 131px 0 50px 0;
+}
+.footer .row {
+    display: flex;
+    align-items: flex-start;
+    gap: 144px;
+    margin-bottom: 80px;
+}
+.footer .column {
+    display: flex;
+    gap: 138px;
+}
+.footer .column .item {
+    display: flex;
+    flex-direction: column;
+}
+.footer .column .company,
+.footer .column .community,
+.footer .column .teaching {
+    gap: 16px;
+}
+.footer .column .item.company a:first-child,
+.footer .column .item.community a:first-child,
+.footer .column .item.teaching a:first-child {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.footer .column .item.company li:first-child a,
+.footer .column .item.community li:first-child a,
+.footer .column .item.teaching li:first-child a,
+.footer .column .be-social li:first-child a {
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: normal;
+}
+.footer .column .item.company a,
+.footer .column .item.community a,
+.footer .column .item.teaching a,
+.footer .column .be-social a {
+    color: #535353;
+}
+
+.footer .column .be-social {
+    gap: 18px;
+}
+.footer .column .be-social li:nth-child(2),
+.footer .column .be-social li:nth-child(2),
+.footer .column .be-social li:nth-child(3),
+.footer .column .be-social li:nth-child(4),
+.footer .column .be-social li:last-child {
+    display: flex;
+    align-items: center;
+}
+.footer .desc {
+    text-align: center;
+}
