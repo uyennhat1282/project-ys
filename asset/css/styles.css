@@ -26,6 +26,17 @@ a {
     min-width: 108px;
     text-align: center;
 }
+.break-all {
+    word-break: break-all;
+}
+.line-clamp {
+    display: -webkit-box;
+    line-clamp: var(--line-clamp, 3);
+    -webkit-line-clamp: var(--line-clamp, 3);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
 /* header */
 .header {
     background-color: #fff;
@@ -244,4 +255,60 @@ a {
 .images-hero .card3 .user img:nth-child(4),
 .images-hero .card3 .user img:nth-child(5) {
     margin-left: -7px;
+}
+/* feature */
+.feature {
+    padding: 130px 0;
+}
+.ex-content {
+    width: 1024px;
+    max-width: calc(100% - 24px);
+    margin-left: calc((100% - 1170px) / 2);
+}
+.feature .content {
+    width: 47.9%;
+}
+.feature .body pre {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+.feature .body h2 {
+    color: #0d1111;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.33;
+    margin: 18px 0;
+}
+.feature .body .desc {
+    color: #767e7e;
+    font-size: 1.8rem;
+    line-height: normal;
+}
+.feature .body .list {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+.feature .body .list a {
+    display: block;
+    color: #0d1111;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: normal;
+    margin: 26px 0 16px 0;
+}
+.feature .body .list p {
+    color: #9da6a5;
+    line-height: 1.69;
+}
+.feature .body .list li:first-child p {
+    width: 168px;
+}
+.feature .body .list li:nth-child(2) p {
+    width: 223px;
+}
+.feature .body .list li:last-child p {
+    width: 224px;
 }
