@@ -366,6 +366,7 @@ a {
     left: 17px;
     width: 325px;
     height: 195px;
+    height: 195px;
     border-radius: 8px;
     background: #fff;
     box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
@@ -378,6 +379,7 @@ a {
     line-height: normal;
 }
 .popular .list .item .content .desc {
+    display: inline-block;
     color: #767e7e;
     margin: 16px 0 6px 0;
 }
@@ -411,5 +413,113 @@ a {
 }
 
 .popular .item .content .month {
-    margin-top: 16px;
+    margin-top: 18px;
+}
+/* testimonial */
+.testi {
+    padding: 389px 0 130px 0;
+}
+.testi .number {
+    width: 73.7%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 264px;
+}
+.testi .number .item span {
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+.testi .body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.testi .body .content {
+    width: 419px;
+}
+.testi .body .content p {
+    color: #5d6564;
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 27px 0 33px 0;
+}
+.testi .body .content span {
+    color: #767e7e;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 7px;
+    position: relative;
+}
+.testi .body .content span:first-child::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 2px;
+    background: #070707;
+    margin-right: 5px;
+    position: absolute;
+    top: 10px;
+    left: -13px;
+}
+
+.testi .body .content .strong {
+    color: #070707;
+    font-weight: 500;
+    line-height: normal;
+}
+.testi .body .content .active {
+    margin-top: 52px;
+}
+.testi .body .content .active svg:first-child {
+    margin-right: 30px;
+}
+
+.testi .body .image {
+    display: flex;
+    width: 679px;
+    height: 481px;
+    position: relative;
+}
+.testi .body .image img:first-child {
+    width: 235px;
+    height: 235px;
+    border-radius: 235px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    margin: auto;
+}
+.testi .body .image img:nth-child(2),
+.testi .body .image img:nth-child(3),
+.testi .body .image img:nth-child(4),
+.testi .body .image img:nth-child(5),
+.testi .body .image img:last-child {
+    width: 92px;
+    height: 92px;
+    border-radius: 92px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    position: absolute;
+}
+.testi .body .image img:nth-child(2) {
+    top: 0;
+    left: 144px;
+}
+.testi .body .image img:nth-child(3) {
+    top: 19px;
+    right: 0;
+}
+.testi .body .image img:nth-child(4) {
+    bottom: 29px;
+    right: 32px;
+}
+.testi .body .image img:nth-child(5) {
+    bottom: 0;
+    left: 212px;
+}
+.testi .body .image img:last-child {
+    left: 0;
+    bottom: 145px;
 }
